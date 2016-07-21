@@ -86,7 +86,7 @@
     "yo": "^1.8.1"
   },
   "dependencies": {
-    "aem-with-react": "^0.7.0",
+    "aem-with-react": "^0.7.3",
     "body-parser": "^1.14.1",
     "classlist-polyfill": "^1.0.2",
     "classnames": "^2.2.3",

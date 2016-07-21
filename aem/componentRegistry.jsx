@@ -17,7 +17,8 @@ import { Components as Environments } from '../src/com/environments'
 
 let registry = new ComponentRegistry('react-demo/components')
 
-registry.register(ReactParsys)
+registry.register(ReactParsys, 'styleguide')
+registry.register(ReactParsys, 'com')
 
 SGAtoms.forEach( item => registry.register(item, 'styleguide') )
 SGMolecules.forEach( item => registry.register(item, 'styleguide') )

@@ -9,6 +9,9 @@ import './style.css'
 export default class Homepage extends BaseComponent {
   constructor( props ) {
     super(props)
+    this.fixedComponents = [
+      'Button'
+    ]
   }
 
   renderBody() {

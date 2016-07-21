@@ -1,0 +1,29 @@
+.Button {
+  -webkit-appearance: none;
+  background: transparent;
+  border-color: transparent;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font: inherit;
+  margin: 0 5px;
+  padding: .7em 1.5em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  white-space: normal;
+}
+
+.Button--primary {
+  border-color: #000;
+}
+
+.Button--secondary {
+  border-color: #22328a;
+  color: #22328a;
+}

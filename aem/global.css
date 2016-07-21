@@ -1,0 +1,4 @@
+#CQ.aem-react-loaded .cq-editrollover-insert-container:first-child {
+  height: 0px!important;
+  opacity: 0!important;
+}

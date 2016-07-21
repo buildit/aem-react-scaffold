@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="sling:OsgiConfig"
+    pool.total.size="30" 
+    scripts.reload="true"
+    scripts.paths="/etc/designs/react-demo/js/react-demo/server.js/jcr:content" />

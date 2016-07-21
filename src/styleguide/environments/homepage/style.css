@@ -1,0 +1,11 @@
+.homepage {
+    position: absolute;
+    min-height: 150px;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+
+body.has-sidebar .homepage {
+    left: 0;
+}

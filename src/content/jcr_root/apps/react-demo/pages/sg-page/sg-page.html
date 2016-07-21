@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <title data-sly-text="${currentPage.pageTitle || currentPage.title || currentPage.name}">CHEF Landing Page</title>
+			<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+			<meta data-sly-use.clientlibInclude="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-unwrap>
+      <meta data-sly-call="${clientlibInclude.js @ categories='react.cq'}" data-sly-unwrap />
+      <meta data-sly-test="${wcmmode.edit || wcmmode.design}" data-sly-include="/libs/wcm/core/components/init/init.jsp" data-sly-unwrap="true"></meta>
+			<meta data-sly-test="${wcmmode.edit || wcmmode.design}" data-sly-call="${clientlibInclude.css @ categories='react.cq'}" data-sly-unwrap/>
+      <meta data-sly-call="${clientlibInclude.css @ categories='react.demo'}" data-sly-unwrap/>
+
+      <link rel="stylesheet" media="all" href="/etc/designs/react-demo/js/react-demo/main.css">
+	 </head>
+
+   <body>
+      <script type="text/javascript" src="/etc/designs/react-demo/js/react-demo/app.js"></script>
+      <div data-sly-resource="${ @path='par', resourceType='wcm/foundation/components/parsys'}"></div>
+   </body>
+
+</html>

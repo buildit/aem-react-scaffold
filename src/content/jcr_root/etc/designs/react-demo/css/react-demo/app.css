@@ -1,0 +1,38 @@
+.toggle-input-toggle {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  color: blue;
+}
+.toggle-input-toggle:hover {
+  color: blue;
+}
+.toggle-input-toggle::before {
+  content: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20fill%3D%22blue%22%20viewBox%3D%220%200%2012%208%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3Earrow%3C%2Ftitle%3E%3Cpath%20d%3D%22M11%206L6%202%201%206%22%20stroke%3D%22blue%22%20stroke-width%3D%223%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E%0A");
+  display: inline-block;
+  width: 10px;
+  margin-right: 10px;
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+.toggle-input-content {
+  display: none;
+  padding-bottom: 20px;
+}
+.toggle-input-state {
+  display: none;
+}
+.toggle-input-state ~ .toggle-input-toggle::before {
+  -webkit-transform: rotate(180deg) translateY(3px) translateX(-2px);
+      -ms-transform: rotate(180deg) translateY(3px) translateX(-2px);
+          transform: rotate(180deg) translateY(3px) translateX(-2px);
+}
+.toggle-input-state:checked ~ .toggle-input-content {
+  display: block;
+}
+.toggle-input-state:checked ~ .toggle-input-toggle::before {
+  -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+          transform: rotate(0);
+}

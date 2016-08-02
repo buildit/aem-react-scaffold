@@ -4,4 +4,4 @@ export { Button }
 const components = [
   Button
 ]
-export {components as Components}
+export { components as Components }

@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "root": true,
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "id-length": 0,
+    "new-cap": 0,
+    "no-console": 0,
+    "comma-dangle": [2, "never"],
+    "semi": 0,
+    "import/imports-first": 1,
+    "import/prefer-default-export": 0,
+    "import/newline-after-import": 0
+  }
+}

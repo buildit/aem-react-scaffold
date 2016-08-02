@@ -48,6 +48,9 @@ const config = {
     ]
   },
   module: {
+    preLoaders: [
+      { test: /\.(js|jsx)$/, exclude: [ /node_modules/, /vendor/ ], loader: 'eslint-loader' }
+    ],
     loaders: [
       { test: /\.(js|jsx)$/, exclude: [ /node_modules/, /vendor/ ], loader: 'babel' },
       { test: /\.(css)$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader') },

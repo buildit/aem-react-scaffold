@@ -59,6 +59,10 @@ const config = {
       { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'file-loader' }
     ]
   },
+  eslint: {
+    failOnWarning: false,
+    failOnError: true
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {

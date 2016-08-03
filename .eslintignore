@@ -1,2 +1,3 @@
 src/**/*.spec.js
 *.css
+webpack.config.js

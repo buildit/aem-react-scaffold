@@ -1,16 +1,9 @@
-import  React from 'react'
+import React from 'react'
 import BaseComponent from 'aem-with-react/BaseComponent'
-import { Resource, ResourceProps } from 'aem-with-react/component/ResourceComponent'
-
 import { Button } from '../../atoms'
-
 import './style.css'
 
 export default class Homepage extends BaseComponent {
-  constructor( props ) {
-    super(props)
-  }
-
   renderBody() {
     let childComponents = this.renderPrep()
     let newZone = this.createNewZone()
@@ -22,8 +15,8 @@ export default class Homepage extends BaseComponent {
 
     return (
       <div className={classnames}>
-        <Button type="primary" label="Primary button"/>
-        <Button type="secondary" label="Secondary button"/>
+        <Button type="primary" label="Primary button" />
+        <Button type="secondary" label="Secondary button" />
         { childComponents }
         { newZone }
       </div>

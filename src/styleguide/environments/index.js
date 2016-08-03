@@ -6,4 +6,4 @@ import './style.css'
 const components = [
   Homepage
 ]
-export {components as Components}
+export { components as Components }

@@ -1,13 +1,10 @@
-import  React from 'react'
+import React from 'react'
 import BaseComponent from 'aem-with-react/BaseComponent'
-import { Resource, ResourceProps } from 'aem-with-react/component/ResourceComponent'
-
 import { Button } from '../../atoms'
-
 import './style.css'
 
 export default class Homepage extends BaseComponent {
-  constructor( props ) {
+  constructor(props) {
     super(props)
     this.fixedComponents = [
       'Button'

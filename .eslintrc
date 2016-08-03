@@ -13,6 +13,8 @@
     "semi": 0,
     "import/imports-first": 1,
     "import/prefer-default-export": 0,
-    "import/newline-after-import": 0
+    "import/newline-after-import": 0,
+    "react/jsx-filename-extension": 0,
+    "import/no-unresolved": 1
   }
 }

@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "no-throw-literal": 0,
+    "no-undef": 0,
+    
+  }
+}

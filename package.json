@@ -25,10 +25,9 @@
     "generator": "yo aem-with-react",
     "deploy": "mvn clean install -PautoInstallPackage -Dgpg.skip",
     "start": "npm run build && npm run test:prod",
-    "lint": "eslint src/com/** src/styleguide/** --ext .js --ext .jsx"
+    "lint": "eslint aem/** src/com/** src/styleguide/** --ext .js --ext .jsx"
   },
   "devDependencies": {
-    "@kadira/storybook": "^1.10.1",
     "autoprefixer": "^6.1.0",
     "babel-core": "^6.9.1",
     "babel-eslint": "^6.1.2",
@@ -93,6 +92,7 @@
     "yo": "^1.8.1"
   },
   "dependencies": {
+    "@kadira/storybook": "^1.10.1",
     "aem-with-react": "^0.7.3",
     "body-parser": "^1.14.1",
     "classlist-polyfill": "^1.0.2",

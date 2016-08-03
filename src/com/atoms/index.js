@@ -2,6 +2,6 @@
 // export { Something }
 
 const components = [
-//    Something
+//  Something
 ]
 export { components as Components }

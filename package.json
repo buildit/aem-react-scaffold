@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:panosvoudouris/aem-react-scaffold.git"
+    "url": "git@github.com:buildit/aem-react-scaffold.git"
   },
   "scripts": {
     "build:client": "webpack --env=development --progress --profile --colors",

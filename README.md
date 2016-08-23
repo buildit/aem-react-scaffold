@@ -1,5 +1,7 @@
 # AEM-React Scaffold Project
 
+This is a scaffold project for getting React components working within AEM. It is based on this project https://github.com/sinnerschrader/aem-react-js
+
 ## Build/deploy to AEM
 
 To quickly build and deploy after cloning:
@@ -26,7 +28,7 @@ it will generate the AEM boilerplate code that needs to go with each component. 
 you can have a deployable site (_src/com_) and an associated styleguide site (_src/styleguide_). Feel free to
 rearrange as needed but keep in mind you'll have to update the generator if you change these paths.
 
-_src/content_ has the AEM boilerplate. Normally you do not have to touch this, however you may need to if 
+_src/content_ has the AEM boilerplate. Normally you do not have to touch this, however you may need to if
 you want to start restricting what can and cannot be shown in the sidekick when authoring.
 
 In general you should only be working in _src/com_ and _src/styleguide_.
